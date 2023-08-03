@@ -1,0 +1,8 @@
+blocked_keywords:
+  - badword1
+  - badword2  
+regex_patterns:
+  - (?i)[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$
+  - (?i)[A-Za-z0-9]{32,}
+jwt_regex: (?i)[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$
+api_key_regex: (?i)[A-Za-z0-9]{32,}
